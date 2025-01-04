@@ -6,3 +6,9 @@ h2 {
   font: sans-serif;
   color: grey;
 }
+
+h1 {
+  font-size: larger;
+  background-color: aqua;
+  color: orangered;
+}
