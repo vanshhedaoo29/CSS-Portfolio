@@ -24,6 +24,23 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-nav {
-  flex: content;
+ul {
+  display: flex;
+  list-style-type: circle;
+}
+
+ul li a {
+  margin: 0 5px;
+  padding: 0px 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: white;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  border-bottom: 1px solid white;
 }
