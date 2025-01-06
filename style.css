@@ -1,14 +1,29 @@
 * {
+  background-color: black;
   font: 1em sans-serif;
 }
 
 h2 {
   font: sans-serif;
-  color: grey;
+  color: #24cfa6;
+  font-size: 50px;
+  text-align: center;
+}
+
+.name {
+  font-size: 100px;
+  color: white;
+  text-align: center;
 }
 
 h1 {
-  font-size: larger;
-  background-color: aqua;
-  color: orangered;
+  color: aquamarine;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  flex: content;
 }
