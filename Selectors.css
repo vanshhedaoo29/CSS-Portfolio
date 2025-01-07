@@ -1,0 +1,88 @@
+Selectors are a fundamental part of CSS that allow you to target specific elements
+in an HTML document and apply styles to them. There are several types of
+selectors, each serving a different purpose:
+
+ 1. Element Selector ( tagname ): Selects all elements of a specific tag name.
+
+ p {
+    color: blue;
+ }
+ This example selects all <p> elements and sets their text color to blue.
+
+
+ 2. Class Selector ( .classname ): Selects all elements with a specific class name.
+
+ .highlight {
+    background-color: yellow;
+ }
+ This example selects all elements with the class "highlight" and sets their
+ background color to yellow.
+
+
+ 3.  ID Selector ( #idname ): Selects a single element with a specific ID.
+
+ #header {
+    font-size: 24px;
+ }
+ This example selects the element with the ID "header" and sets its font size to
+24 pixels.
+
+
+4. Attribute Selector ( [attribute=value] ): Selects elements with a specific attribute
+and value.
+
+input [type="text"] {
+    border: 1px solid #ccc;
+}
+This example selects all <input> elements with the attribute type set to "text"
+and sets a border style for them.
+
+
+5. Pseudo-classes and Pseudo-elements: Selects elements based on their state
+or position in the document.
+Pseudo-classes: :hover , :active , :focus , etc.
+Pseudo-elements: ::before , ::after, etc.
+
+a:hover {
+    color: red;
+   }
+
+   li::before {
+    content: "•";
+    margin-right: 5px;
+   }
+   These examples style links ( <a> elements) to change color on hover and add a
+bullet ( • ) before each list item ( <li> element).
+
+
+6. Combination Selectors: Combines multiple selectors to target specific
+elements more precisely.
+- Descendant Selector ( ancestor descendant ): Selects an element that is a
+descendant of another specified element.
+- Child Selector ( parent > child ): Selects an element that is a direct child of
+another specified element.
+- Adjacent Sibling Selector ( prev + next ): Selects an element that is
+immediately preceded by a specified element.
+- General Sibling Selector ( prev ~ siblings ): Selects all elements that are
+siblings of a specified element.
+
+div p {
+    color: green;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h2 + p {
+    margin-top: 0;
+}
+
+p ~ span {
+    font-style: italic;
+}
+These examples demonstrate various combination selectors targeting different
+element relationships.
+
+Understanding these selectors is crucial for precisely targeting elements in your
+HTML document and applying styles effectively.
