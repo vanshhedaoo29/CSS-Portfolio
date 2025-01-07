@@ -1,0 +1,35 @@
+ CSS Cascading Style Sheets) is used to style the appearance of web pages. The
+basic syntax of CSS consists of a selector and one or more declarations enclosed
+in curly braces. Each declaration includes a property and a value, separated by a
+colon. 
+
+selector {
+    property: value
+}
+
+-> Selector: Selects the HTML element(s) to which the style should be applied.
+Selectors can target elements by tag name, class, ID, or other attributes.
+
+Example: h1 targets all <h1> elements, .my-class targets elements with the
+class "my-class", #my-id targets the element with the ID "my-id".
+
+-> Property: Specifies the aspect of the element to style, such as color , 
+fontsize , background-color , etc.
+
+-> Value: Defines the value for the property, such as red , 20px , #fff , etc.
+
+-> Declaration Block: Contains one or more declarations enclosed in curly
+braces {} . Multiple declarations are separated by semicolons ; .
+
+
+-->   CSS rules can be placed in an external CSS file and linked to an HTML
+document using the <link> tag in the <head> section, or they can be included
+directly in the <style> tag within the HTML document.
+
+
+-->  CSS properties can be inherited from parent elements, and the cascading
+nature of CSS allows for the application of multiple styles to the same element,
+with specificity determining which style takes precedence.
+
+Understanding the basic syntax of CSS is fundamental for styling web pages
+effectively and is a foundational concept for further exploration of CSS.
