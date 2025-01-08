@@ -1,0 +1,16 @@
+In CSS, every element is treated as a rectangular box, and the box model
+describes how these boxes are structured. The box model consists of four main
+components:
+
+ Content: The actual content of the box, such as text, images, or other media.
+
+ Padding: Space between the content and the border. It is transparent by
+default and is used to create space inside the box.
+
+ Border: A border that surrounds the padding and content. It can have a width,
+style, and color specified.
+
+ Margin: Space outside the border. It clears an area outside the border and is
+used to create space between elements.
+
+The total width and height of an element are calculated as follows:
